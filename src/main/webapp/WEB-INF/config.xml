@@ -23,7 +23,8 @@ http://www.springframework.org/schema/aop
 
     <jaxrs:server address="/services">
         <jaxrs:serviceBeans>
-            <ref bean="wrappedQueryService"></ref>
+            <ref bean="queryService"></ref>
+            <ref bean="mark2Service"></ref>
         </jaxrs:serviceBeans>
     </jaxrs:server>
 </beans>
